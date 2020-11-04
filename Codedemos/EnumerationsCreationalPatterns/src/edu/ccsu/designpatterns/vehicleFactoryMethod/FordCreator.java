@@ -1,3 +1,4 @@
+
 package edu.ccsu.designpatterns.vehicleFactoryMethod;
 
 /**
@@ -20,6 +21,6 @@ public class FordCreator extends CarCreator {
 
   @Override
   protected Transmission makeTransmission(String parameters) {
-    return new ToyotaTransmission();
+    return new FordTransmission();
   }
 }
